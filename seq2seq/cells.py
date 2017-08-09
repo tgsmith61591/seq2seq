@@ -1,5 +1,5 @@
 import recurrentshop
-from recurrentshop.cells import *
+from .recurrentshop.cells import *
 from keras.models import Model
 from keras.layers import Input, Dense, Lambda, Activation
 from keras.layers import add, multiply, concatenate
